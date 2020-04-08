@@ -1,0 +1,75 @@
+footer{
+    width: 100%;
+    background-color: black;
+}
+.partefooter{
+    background-color: salmon;
+    padding: 50px;
+    width: 100%;
+}
+.contenidof{
+    display: flex;
+    justify-content: center;
+}
+.titulomapa{
+    color: black;
+    text-align: center;
+    font-family: 'Gotu', sans-serif; 
+    padding: 35px 0 15px 0;
+    font-size: 30px;
+}
+iframe{
+    margin-top: 40px;
+    border-radius: 5px;
+}
+form{
+    margin-left: 50px;
+    width: 450px;
+    background-color: rgba(0, 0, 0, 4);
+    box-sizing: border-box;
+    padding: 20px 20px;
+    margin-top: 40px;
+    border-radius: 7px;
+    font-family: 'Gotu', sans-serif;
+}
+input,textarea{
+    width: 100%;
+    margin-bottom: 15px;
+    padding: 13px;
+    box-sizing: border-box;
+    border-radius: 4px;
+    font-size: 17px;
+    border: none;
+    font-family: 'Gotu', sans-serif;
+}
+textarea{
+    min-height: 100px;
+    max-height: 200px;
+    max-width: 300%;
+    min-width: 100%;
+}
+#boton{
+    background-color: salmon;
+    color: black;
+    padding: 20px;
+}
+#boton:hover{
+    cursor: pointer;
+    background-color: white;
+    color: salmon;
+}
+h3{
+    text-align: center;
+    color: white;
+}
+.contenidoiconos{
+    margin-top: 150px;
+    display: block;
+}
+.iconospadres{
+    width: 300px;
+    margin: 50px auto;
+}
+.iconospadres img{
+    padding: 15px;
+}

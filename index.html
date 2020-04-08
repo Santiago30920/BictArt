@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BigArt</title>
+    <link rel="icon" href="icons/favicon.png">
+    <link rel="stylesheet" href="css/menu.css">
+    <link rel="stylesheet" href="css/slider.css">
+    <link rel="stylesheet" href="css/contenido.css">
+    <link rel="stylesheet" href="css/footer.css">
+    <link href="https://fonts.googleapis.com/css2?family=Gotu&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header class="iconobitart">
+        <img class="img_logo" src="icons/iconobitart.png" alt="logobitart">
+    </header>
+    <header class="main_header">
+        <input type="checkbox" id="boton_menu">
+        <label class="icono_menu" for="boton_menu">
+            <img src="icons/iconomenu.png" alt="iconomenu" width="35px" height="35px">
+        </label>
+        <nav class="menu">
+            <ul>
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="#">obras</a></li>
+            </ul>
+            <div class="dropnow">
+                <button class="dropbtn">More</button>
+                <div class="dropnow-content">
+                    <a href="#seccion1">Seccion 1</a>
+                    <a href="#seccion2">Seccion 2</a>
+                    <a href="#seccion3">Seccion 3</a>
+                    <a href="#info">Info</a>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <section>
+        <article>
+            <ul class="slider-portada">
+                <li><input type="radio" id="sbutton1" name="sradio" checked>
+                    <label for="sbutton1"></label>
+                    <img src="image/imageneshome/obra1.jpg" alt="obra1">
+                </li>
+                <li>
+                    <input type="radio" id="sbutton2" name="sradio">
+                    <label for="sbutton2"></label>
+                    <img src="image/imageneshome/obra2.jpg" alt="obra2">
+                </li>
+                <li>
+                    <input type="radio" id="sbutton3" name="sradio">
+                    <label for="sbutton3"></label>
+                    <img src="image/imageneshome/obra3.jpg" alt="obra2">
+                </li>
+                <li>
+                    <input type="radio" id="sbutton4" name="sradio">
+                    <label for="sbutton4"></label>
+                    <img src="image/imageneshome/obra4.jpg" alt="obra2">
+                </li>
+            </ul>
+        </article>
+    </section>
+    <article id="seccion1" class="bloquetitulo">
+        <h1>Bienvenidos a BITART</h1>
+        <section class="parrafotitulo">
+            <p>
+                En BITART estamos convecidos de que el arte debe <br>
+                formar parte de la vida de todos, por eso es una plataforma <br>
+                para aficionados al arte y así mismo para ti. Conoce <br>
+                obras de arte famosas y los pintores más destacados del mundo <br>
+            </p>
+
+            <div class="iconoart">
+                <img src="icons/milo-venus.png" alt="iconobloque">
+            </div>
+        </section>
+    </article>
+    <article id="seccion2" class="bloquetitutlo2">
+        <h2>Pintures destacados de la historia</h2>
+        <section class="parrafotitulo2">
+            <hr width="600px" color="salmon">
+            <p>
+                Cuando el arte es un placer <br>
+                EL arte les brinda un medio a las personas <br>
+                para expresarse, ya qu puede ser utilizado para <br>
+                difundir ideas, emociones, opiniones o creencias. <br>
+                Dali, DaVinci, Van Gogh entre otros... <br>
+                Siendo los pintores más destacados de la historia. <br>
+                Simplemente haz <span style="color: salmon;">click </span>en el video. <br>
+            </p>
+        </section>
+        <section class="videopitores">
+            <video src="video/videopintores.mp4" width="510px" height="400px" controls></video>
+        </section>
+    </article>
+    <figure id="seccion3" class="fotografia">
+        <img src="image/imageneshome/bobross.jpg" alt="bobross" class="fotobob">
+        <i>
+            <q> No cometemos errores.
+                Simplemente tenemos accidentes felices.
+            </q>
+            <p>-Bob Ross</p>
+        </i>
+    </figure>
+    <footer id="info">
+        <section class="partefooter">
+            <h3 class="titulomapa">
+                Tambièn puedes ubicarno y contactarnos:
+            </h3>
+            <div class="contenidof">
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3976.850236483077!2d-74.06585658465644!3d4.620794743630452!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e3f99f7fa84fe3b%3A0x4a37c6adedc1d243!2sBICTIA!5e0!3m2!1ses-419!2sco!4v1585845397682!5m2!1ses-419!2sco"
+                    width="500" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false"
+                    tabindex="0">
+                </iframe>
+                <form action="">
+                    <h3>
+                        contacto
+                    </h3>
+                    <input type="text" name="nombre" placeholder="Nombre" maxlength="35">
+                    <input type="email" name="correo" placeholder="email">
+                    <input type="number" name="telefono" placeholder="telefono">
+                    <textarea name="mensaje" id="textarea" placeholder="Escriba aqui el mensaje"></textarea>
+                    <label for="textarea"></label>
+                    <input type="submit" id="boton" value="Enviar">
+                </form>
+            </div>
+        </section>
+        <div class="contenidoiconos">
+            <hr width="85%" color="salmon">
+            <div class="iconospadres">
+                <a href="">
+                    <img src="icons/twitter.png" alt="iconotwitter">
+                </a>
+                <a href="">
+                    <img src="icons/facebook.png" alt="iconofacebook">
+                </a>
+                <a href="">
+                    <img src="icons/instagram.png" alt="iconoinstagram">
+                </a>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>

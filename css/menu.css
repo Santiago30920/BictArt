@@ -1,0 +1,128 @@
+.iconobitart{
+    background-color: black;
+    padding-top: 15px
+}
+.img_logo{
+    width: 150px;
+    height: 210px;
+    margin: 0 auto;
+    display: block;
+}
+.main_header{
+    text-align: center;
+    width: 100%;
+    background-color: black;
+    font-size: 26px;
+    font-family: 'Gotu', sans-serif;
+    margin-top: -8px;
+}
+#boton_menu{
+    display: none;
+}
+.icono_menu{
+    padding-top: 30px;
+}
+header label{
+    display: none;
+    width: 100px;
+    padding: 10px;
+    border-right: 1px solid white;
+}
+header label:hover{
+    cursor: pointer;
+    background-color: salmon;
+}
+.menu ul{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    display: inline-flex;
+
+}
+.menu li{
+    padding: 20px 25px 0px 25px;
+}
+.menu li a{
+    text-decoration: none;
+    color: white;
+}
+.menu li a:hover{
+    text-decoration: overline;
+    color: salmon;
+}
+.dropnow{
+    position: relative;
+    display: inline-flex;
+}
+.dropbtn{
+    background-color: black;
+    font-size: 26px;
+    color: white;
+    padding: 16px;
+    border: none;
+    cursor: pointer;
+    font-family: 'Gotu', sans-serif;
+}
+.dropnow-content{
+    margin-top: 76%;
+    display: none;
+    position: absolute;
+    background-color: black;
+    min-width: 160px;
+    z-index: 1;
+}
+.dropnow-content a{
+    color: black;
+    padding: 16px 16px;
+    text-decoration: none;
+    display: block;
+}
+.dropnow:hover .dropnow-content{
+    display: block;
+}
+.dropnow-content a:hover{
+    background-color: salmon;
+}
+.dropnow:hover .dropbtn{
+    color: salmon;
+    z-index: 1;
+    text-decoration: overline;
+}
+@media (max-width:1020px){
+    header label{
+        display: block;
+        height: 70px;
+    }
+    .menu{
+        position: absolute;
+        background-color: salmon;
+        width: 100%;
+        margin-left: -100%;
+        transition: all 0.5s;
+        z-index: 100;
+    }
+    #boton_menu:checked ~ .menu{
+        margin: 0;
+    }
+    .menu ul{
+        display: block;
+    }
+    .menu li:hover{
+        background-color: black;
+    }
+    .dropbtn{
+        background-color: salmon;
+        color: white;
+    }
+    .dropnow-content a{
+        color: rgb(255, 255, 255);
+    }
+    .dropnow-content a:hover{
+        color: salmon;
+        background-color: black;
+    }
+    .dropnow:hover .dropbtn{
+        color: salmon;
+        background-color: black;
+    }
+}

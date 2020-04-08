@@ -1,0 +1,68 @@
+.slider-portada{
+    width: 100%;
+    height: 600px;
+    margin: auto;
+    list-style: none;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+.slider-portada img{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    transition: all 0.75s;
+}
+.slider-portada input[type="radio"]{
+    position: relative;
+    z-index: 100;
+    margin: 10px;
+}
+.slider-portada input[type='radio']:checked ~ img{
+    opacity: 1;
+}
+/* Responsive Design */
+@media(max-width:600px){
+    .slider-portada{
+        width: 100%;
+        height: 400px;
+    }
+}
+/*Dispositivos pequeños*/
+@media(min-width:600px){
+    .slider-portada{
+        width: 100%;
+        height: 400px;
+    }
+}
+/*Dispositivos medianos*/
+@media(min-width:768px){
+    .slider-portada{
+        width: 100%;
+        height: 420px;
+    }
+}
+/*Dispositivos Grandes*/
+@media(min-width:998px){
+    .slider-portada{
+        width: 100%;
+        height: 440px;
+    }
+}
+@media(min-width:998px){
+    .slider-portada{
+        width: 100%;
+        height: 440px;
+    }
+}
+/*Dispositivos Gmuy gandes*/
+@media(min-width:1200px){
+    .slider-portada{
+        width: 100%;
+        height: 600px;
+    }
+}
