@@ -73,3 +73,9 @@ h3{
 .iconospadres img{
     padding: 15px;
 }
+@media(max-width:900px){
+    .contenidof{
+        display: block;
+        justify-content: center;
+    }
+}
