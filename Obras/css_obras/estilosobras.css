@@ -1,0 +1,23 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    background-image: url(../imagenesObras/marmol2.jpg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.bloquetitulo{
+    font-size: 40px;
+    letter-spacing: 1px;
+    padding-top: 90px;
+    text-align: center;
+    font-family: 'Gotu', sans-serif;
+    color: black;
+    margin: 0;
+}
+.ptitulo{
+    font-size: 25px;
+    margin-top: -40px;
+}

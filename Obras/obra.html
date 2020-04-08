@@ -1,11 +1,84 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Obras</title>
+    <link rel="stylesheet" href="css_obras/estilosobras.css">
+    <link href="https://fonts.googleapis.com/css2?family=Gotu&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../css/menu.css">
 </head>
+
 <body>
-    
+    <header class="iconobitart">
+        <img class="img_logo" src="../icons/iconobitart.png" alt="logobitart">
+    </header>
+    <header class="main_header">
+        <input type="checkbox" id="boton_menu">
+        <label class="icono_menu" for="boton_menu">
+            <img src="../icons/iconomenu.png" alt="iconomenu" width="35px" height="35px">
+        </label>
+        <nav class="menu">
+            <ul>
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="#">obras</a></li>
+            </ul>
+            <div class="dropnow">
+                <button class="dropbtn">More</button>
+                <div class="dropnow-content">
+                    <a href="#seccion1">Seccion 1</a>
+                    <a href="#seccion2">Seccion 2</a>
+                    <a href="#seccion3">Seccion 3</a>
+                    <a href="#info">Info</a>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <article class="bloquetitulo">
+        <h1>Obras de arte</h1>
+        <section class="ptitulo">
+            <p>Bienvenidos a BITARt un sitio web de arte</p>
+
+        </section>
+        <section class="content-two">
+            <div class="container">
+                <div class="card">
+                    <img src="imagenesObras/chica_arte.jpg" alt="chica">
+                    <h4>Wladyslaw Theodor Benda, (1873-1948)</h4>
+                    <p>
+                        Pintor, ilustrador y diseñador estadounidense polaco. . Es mejor recordado por sus máscaras, que
+                        se utilizaron en representaciones teatrales y de danza en todo el mundo
+                    </p>
+                    <a href="#">Leer mas</a>
+                </div>
+                <div class="card">
+                    <img src="imagenesObras/dali.jpg" alt="dali">
+                    <h4>
+                        La persistencia de la memoria, (1931)
+                    </h4>
+                    <P>
+                        La persistencia de la memoria, conocido también como Los relojes blandos​ o Los relojes
+                        derretidos​ es un cuadro del pintor español Salvador Dalí pintado en 1931.
+                        Leer más
+                    </P>
+                    <a href="#">Leer mas</a>
+                </div>
+                <div class="card">
+                    <img src="imagenesObras/grito.jpg" alt="grito">
+                    <h4>
+                        El Grito (1863-1944)
+                    </h4>
+                    <p>
+                        El grito (en noruego Skrik) es el título de cuatro cuadros del noruego Edvard Munch (1863-1944).
+                        La fuente de inspiración para El grito podría encontrarse quizás, en la atormentada vida del
+                        artista.
+                    </p>
+                    <a href="#">Leer mas</a>
+                </div>
+            </div>
+        </section>
+    </article>
 </body>
+
 </html>
